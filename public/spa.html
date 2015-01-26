@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Types" content="text/html; charset=ISO-8859-1"/>
+  <meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <title>SPA Starter</title>
+
+	<!-- Our stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/spa.css">
+	<link rel="stylesheet" href="css/spa.shell.css">
+
+	<!-- Third-party javascript -->
+	<script src="js/jq/jquery-1.11.1.js"></script>
+	<script src="js/jq/jquery.uriAnchor.js"></script>
+
+	<!-- Our javascript -->
+	<script src="js/spa.js"></script>
+	<script src="js/spa.util.js"></script>
+	<script src="js/spa.model.js"></script>
+	<script src="js/spa.shell.js"></script>
+	<script src="js/spa.chat.js"></script>
+	<script>
+		$(function() {spa.initModule($('#spa'))});
+	</script>
+</head>
+<body>
+	<div id="spa"></div>
+</body>
+</html>

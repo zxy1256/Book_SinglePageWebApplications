@@ -2,5 +2,5 @@ This is an example copied from the book "Single Page Web Applications" by Michae
 
 
 To try the web app in action:
-    node server.js
+    node app.js
     visit localhost:8000 using a browser
